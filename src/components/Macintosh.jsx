@@ -42,11 +42,10 @@ function Macintosh() {
 
   useFrame(({ clock }) => {
     if (selected === "all") {
-      if (camera.position !== [0, 0, 15]) {
-        camera.position.x = MathUtils.lerp(camera.position.x, 0, 0.1);
-        camera.position.y = MathUtils.lerp(camera.position.y, 0, 0.1);
-        camera.position.z = MathUtils.lerp(camera.position.z, 15, 0.1);
-      }
+      camera.position.x = MathUtils.lerp(camera.position.x, 0, 0.1);
+      camera.position.y = MathUtils.lerp(camera.position.y, 0, 0.1);
+      camera.position.z = MathUtils.lerp(camera.position.z, 15, 0.1);
+
       sceneRef.current.rotation.y = MathUtils.lerp(
         sceneRef.current.rotation.y,
         mouse.x * 0.5 + Math.PI,
