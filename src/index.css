@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Geneva10;
+  src: url("/fonts/FindersKeepers.woff2");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
