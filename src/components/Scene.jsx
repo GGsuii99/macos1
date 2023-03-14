@@ -32,9 +32,7 @@ function Scene() {
               </h1>
               <p className="dialog-text">
                 This is a simulation of the Macintosh computer. It is not a real
-                Macintosh, but it is a very good simulation. It is intended to
-                be used as a training tool for people who are learning to use
-                the Macintosh.
+                Macintosh, but it is a very good simulation.
               </p>
               <h1 className="dialog-text center">
                 Loading {Math.floor(progress)}%
