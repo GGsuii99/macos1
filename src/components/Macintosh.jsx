@@ -119,7 +119,7 @@ function Macintosh() {
             <div className="Logo">
               <div className="Logo__container">
                 <span className="apple"></span>
-                <h1>Macintosh 1983</h1>
+                <h1>Macintosh 1984</h1>
               </div>
             </div>
           </Html>
@@ -148,10 +148,8 @@ function Macintosh() {
                 {selected === "mouse" && (
                   <Html position={[5, 0, 0]}>
                     <Window title="Mouse">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Ut ipsa maiores distinctio. Repudiandae sed blanditiis
-                      ullam voluptatem, fugiat voluptatum quas repellat, est
-                      dolor velit totam ipsa iure eaque alias magnam.
+                      Macintosh comes with a mouse. It is a single button mouse.
+                      It is a very simple mouse compared to modern mouses.
                     </Window>
                   </Html>
                 )}
@@ -208,10 +206,10 @@ function Macintosh() {
               {selected === "keyboard" && (
                 <Html position={[0, -9, 0]}>
                   <Window title="Keyboard">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut
-                    ipsa maiores distinctio. Repudiandae sed blanditiis ullam
-                    voluptatem, fugiat voluptatum quas repellat, est dolor velit
-                    totam ipsa iure eaque alias magnam.
+                    Macintosh comes with a keyboard that is very similar to the
+                    one used on the Apple II. The keys are arranged in a
+                    standard QWERTY layout, with the addition of a few keys for
+                    the Macintosh's unique features.
                   </Window>
                 </Html>
               )}
@@ -703,10 +701,14 @@ function Macintosh() {
                 minWidth: 400,
               }}
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ipsa
-              maiores distinctio. Repudiandae sed blanditiis ullam voluptatem,
-              fugiat voluptatum quas repellat, est dolor velit totam ipsa iure
-              eaque alias magnam.
+              Macintosh is a series of personal computers designed, manufactured
+              and sold by Apple Inc. since 1984. It is Apple's main line of
+              computers for the consumer market, and has been Apple's most
+              profitable product line. The original Macintosh was introduced on
+              January 24, 1984, and was the first mass-market personal computer
+              to feature an integral graphical user interface (GUI) and mouse.
+              The first version of the Macintosh operating system, Mac OS, was
+              released in March 1984.
             </div>
           </Window>
         </Html>
